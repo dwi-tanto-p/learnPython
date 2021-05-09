@@ -1,7 +1,7 @@
 fibArray=[1,1]
 def fibonaci(number):
     if number <= len(fibArray):
-        return fibArray[number]
+        return fibArray[number-1]
     else:
         for i in range(2, number):
             if len(fibArray) > i :
